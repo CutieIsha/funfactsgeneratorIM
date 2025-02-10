@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light cyan background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+h1 {
+    color: #d32f2f; /* Red color for the heading */
+    margin-bottom: 20px;
+}
+
+#fact {
+    font-size: 18px;
+    color: #1976d2; /* Blue color for the fact text */
+    margin: 20px 0;
+    transition: opacity 0.5s ease;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #388e3c; /* Green background for the button */
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2e7d32; /* Darker green on hover */
+}
+
+#factCounter {
+    font-size: 16px;
+    color: #555; /* Gray color for the counter */
+    margin-top: 15px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    background-color: #f1f1f1; /* Light gray background for the select */
+}
